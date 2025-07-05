@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Фильмы</string>
+    <string name="movie_poster">Постер фильма</string>
+    <string name="genres_year_format">%1$s, %2$d год</string>
+    <string name="rating_format">%.1f</string>
+    <string name="rating_name">КиноПоиск</string>
+    <string name="no_rating">0</string>
+    <string name="no_description"> </string>
+    <string name="description_holder">Бен и Алекс, уцелевшие после авиакатастрофы, должны найти общий язык, чтобы выжить в экстремальных условиях далеких заснеженных гор. Когда они понимают, что на помощь к ним никто не придет, они вынуждены отправиться в опасный путь длиной в сотни километров. В заснеженных американских горах им придётся проходить через все ужасы выживания: серьёзные травмы, невозможность связаться с внешним миром, нападение диких животных. В борьбе за жизнь между двумя еще вчера незнакомыми людьми неожиданно возникает притяжение.</string>
+    <string name="rating_holder">6.7</string>
+    <string name="genre_holder">драма, 2017 год</string>
+    <string name="name_holder">Между нами горы</string>
+    <string name="year_only_format">%d год</string>
+    <string name="films">Фильмы</string>
+    <string name="error_network">Ошибка подключения сети</string>
+    <string name="retry">Повторить</string>
+    <string name="genres_title">Жанры</string>
+</resources>

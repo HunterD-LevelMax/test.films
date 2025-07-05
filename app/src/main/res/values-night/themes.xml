@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Films" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/dark_blue</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="colorPrimaryDark">@color/dark_blue</item>
+        <item name="colorAccent">@color/genre_selected</item>
+        <item name="snackbarButtonStyle">@style/CustomSnackbar</item>
+    </style>
+
+    <style name="CustomSnackbar" parent="@style/Widget.Material3.Button.TextButton.Snackbar">
+        <item name="android:textColor">@color/yellow</item>
+    </style>
+
+    <style name="Theme.Films" parent="Base.Theme.Films" />
+
+</resources>

@@ -1,0 +1,26 @@
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/moviesListFragment">
+
+    <fragment
+        android:id="@+id/moviesListFragment"
+        android:name="com.euphoria.app.ui.movieslist.MoviesListFragment">
+        <action
+            android:id="@+id/action_moviesListFragment_to_movieDetailsFragment"
+            app:destination="@id/movieDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/movieDetailsFragment"
+        android:name="com.euphoria.app.ui.moviedetails.MovieDetailsFragment"
+        android:label="MovieDetailsFragment">
+        <argument
+            android:name="film"
+            app:argType="com.euphoria.app.data.models.Film"
+           />
+    </fragment>
+
+
+</navigation>

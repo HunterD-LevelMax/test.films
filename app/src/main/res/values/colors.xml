@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark_blue">#0E3165</color>
+    <color name="dark_notice">#232323</color>
+    <color name="yellow">#FFC967</color>
+
+    <color name="header_background">#1A237E</color>
+    <color name="genre_selected">#FF9800</color>
+    <color name="genre_unselected">#B0BEC5</color>
+    <color name="background_gray">#E0E0E0</color>
+    <color name="text_black">#212121</color>
+
+    <color name="red">#F44336</color>
+
+</resources>
