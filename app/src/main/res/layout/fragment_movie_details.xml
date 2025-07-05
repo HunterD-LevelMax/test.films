@@ -22,13 +22,16 @@
             android:id="@+id/film_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="8dp"
             android:background="@color/dark_blue"
             android:ellipsize="end"
             android:maxLines="2"
             android:text="@string/name_holder"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="20dp" />
 
     </androidx.appcompat.widget.Toolbar>
 
@@ -55,11 +58,11 @@
 
                 <ImageView
                     android:id="@+id/iv_poster"
-                    android:layout_width="200dp"
+                    android:layout_width="180dp"
                     android:layout_height="250dp"
                     android:layout_gravity="center_horizontal"
                     android:contentDescription="@string/movie_poster"
-                    android:scaleType="centerCrop"
+                    android:scaleType="fitXY"
                     app:srcCompat="@drawable/poster_image" />
             </androidx.cardview.widget.CardView>
 
