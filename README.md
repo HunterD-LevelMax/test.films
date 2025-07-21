@@ -1,4 +1,5 @@
 # test.films
+- Koin, Retrofit2, MVVM
 
 [![Download APK](https://img.shields.io/badge/Download_Debug_APK-v1.0-important?style=for-the-badge&logo=android)](https://github.com/HunterD-LevelMax/test.films/releases/download/v1.0/app-debug.apk)
 
